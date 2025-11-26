@@ -10,6 +10,7 @@ package ejemplos02;
 
 import java.util.Locale;
 import java.util.Scanner;
+
 /**
  *
  * @author reroes
@@ -26,18 +27,17 @@ public class Ejemplo05 {
         // 6. resultado, i[0, n]
         int resultado;
         // numero <-- 4
-        
+
         // 8. potencia <-- 3
-        
         // 9. resultado <-- 1
         resultado = 1;
 
         int contador = 1;
-        
+
         System.out.println("Ingrese numero");
-            numero = entrada.nextInt();
-            System.out.println("Ingrese una potencia");
-            potencia = entrada.nextInt();
+        numero = entrada.nextInt();
+        System.out.println("Ingrese una potencia");
+        potencia = entrada.nextInt();
 
         do {
             resultado = resultado * numero;
