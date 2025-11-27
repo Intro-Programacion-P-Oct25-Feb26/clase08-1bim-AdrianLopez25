@@ -43,7 +43,7 @@ public class Ejemplo05 {
             resultado = resultado * numero;
             contador = contador + 1;
         } while (contador <= potencia);
-
+ 
         System.out.printf("%d\n", resultado);
     }
 }
