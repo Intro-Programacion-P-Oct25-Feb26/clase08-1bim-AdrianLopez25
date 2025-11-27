@@ -43,6 +43,8 @@ public class Ejemplo06 {
         if(tabla%2!=0 || limite%2!=0){
             tabla = 10;
             limite = 20;
+            // 4/2=0 (Numero Par) | 6/2=0 (Numero par)= Falso y pasara a la 
+            //siguiente linea de codigo
         }
 
         do {
