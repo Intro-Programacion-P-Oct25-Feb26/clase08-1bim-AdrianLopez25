@@ -26,7 +26,7 @@ public class Ejemplo09 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
 
-       String cadenaFinal;
+        String cadenaFinal;
         int nota;
         int salida;
         String nombre; // *
@@ -43,12 +43,12 @@ public class Ejemplo09 {
             nota = entrada.nextInt();
             suma = suma + nota;
             contador_calificaciones = contador_calificaciones + 1;
-            if (nota>=5){
+            if (nota >= 5) {
                 cadenaFinal = String.format("%sCalificacion %s(Muy buena) del"
-                        + " estudiante %s\n",cadenaFinal, nota, nombre);
-            }else{
+                        + " estudiante %s\n", cadenaFinal, nota, nombre);
+            } else {
                 cadenaFinal = String.format("%sCalificacion %s(buena) del"
-                        + " estudiante %s\n",cadenaFinal, nota, nombre);
+                        + " estudiante %s\n", cadenaFinal, nota, nombre);
             }
             System.out.println("Ingrese (-111) si desea salir del ciclo; "
                     + "cualquier otro número para continuar");
@@ -56,13 +56,13 @@ public class Ejemplo09 {
             if (salida == -111) {
                 bandera = false;
             }
-            entrada.nextLine(); 
-            
-        } while (bandera); 
+            entrada.nextLine();
+
+        } while (bandera);
         promedio = (double) suma / contador_calificaciones;
         cadenaFinal = String.format("%s\nPromedio de calificaciones: %.2f",
                 cadenaFinal,
                 promedio);
         System.out.printf("%s\n", cadenaFinal);
-        
+    }
 }
