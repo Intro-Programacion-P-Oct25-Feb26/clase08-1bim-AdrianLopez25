@@ -55,7 +55,7 @@ public class Ejemplo06 {
                     tabla, 
                     contador, 
                     operacion);
-            contador = contador + 1;
+            contador = contador + 1; 
         } while (contador <= limite);
 
     }
